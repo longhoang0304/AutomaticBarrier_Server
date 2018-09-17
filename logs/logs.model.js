@@ -23,7 +23,7 @@ const LogsScheme = new Schema(
     createdAt: {
       type: Schema.Types.Date,
       required: true,
-      default: new Date(),
+      default: Date.now,
     },
   },
   {
