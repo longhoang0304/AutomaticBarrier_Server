@@ -26,7 +26,7 @@ db.on('error', (err) => {
 });
 
 log.info('Connecting to database');
-mongoose.connect('mongodb://ds123012.mlab.com:23012/auto_barrier_logs', {
+mongoose.connect('mongodb://ds159782.mlab.com:59782/auto-barrier', {
   user: 'crabbycrab',
   pass: 'crab123456789',
   connectTimeoutMS: 30000,
